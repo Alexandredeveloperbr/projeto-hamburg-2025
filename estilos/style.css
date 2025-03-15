@@ -44,8 +44,7 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: left;
-    
+    text-align: top;
     
 }
 
@@ -66,8 +65,18 @@ section#redes-sociais img:hover {
 }
 
 footer {
-    background-color: aliceblue;
-    color: black;
+    
+    position: relative;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
     text-align: center;
     padding: 3px 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
+    
+    
 }
